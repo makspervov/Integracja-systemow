@@ -1,0 +1,4 @@
+System: Windows 11 version 10.0 running on amd64; UTF-8; uk_UA (nb)
+IDE: Apache NetBeans IDE 16
+PHP: 8.1
+Java: 19.0.1; Java HotSpot(TM) 64-Bit Server VM 19.0.1+10-21
