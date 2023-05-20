@@ -1,0 +1,11 @@
+System operacyjny: Windows 11 Pro 22H2
+
+Zadanie 2.2-2.6:
+	IDE: JetBrains PyCharm Community Edition 2022.3.3
+	Wersja Python: 3.9.13.final.0
+
+Zadanie 2.7-2.8:
+	IDE: Microsoft Visual Studio Community 2022 v.17.5.1
+	Wersja .NET Framework: 4.8
+	Wersja .NET: 7.0.3
+	Wersaj C#: 11.0

@@ -1,0 +1,4 @@
+System operacyjny: Windows 11 Pro 22H2
+IDE: Visual Studio Community 2022 v.17.5.1
+Wersja .NET Framework: 4.8
+Wersja .NET: 5.0.17

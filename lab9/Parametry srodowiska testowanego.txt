@@ -1,0 +1,6 @@
+System operacyjny:
+Edition	Windows 10 Pro
+Version	22H2
+
+IDE: Microsoft Visual Studio Code
+Version: 1.78.2 (user setup)

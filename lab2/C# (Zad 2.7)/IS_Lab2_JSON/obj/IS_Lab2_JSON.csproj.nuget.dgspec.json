@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maksi\\OneDrive\\Документи\\Semestr 6\\IS\\lab2\\C# (Zad 2.7)\\IS_Lab2_JSON\\IS_Lab2_JSON.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maksi\\OneDrive\\Документи\\Semestr 6\\IS\\lab2\\C# (Zad 2.7)\\IS_Lab2_JSON\\IS_Lab2_JSON.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maksi\\OneDrive\\Документи\\Semestr 6\\IS\\lab2\\C# (Zad 2.7)\\IS_Lab2_JSON\\IS_Lab2_JSON.csproj",
+        "projectName": "IS_Lab2_JSON",
+        "projectPath": "C:\\Users\\maksi\\OneDrive\\Документи\\Semestr 6\\IS\\lab2\\C# (Zad 2.7)\\IS_Lab2_JSON\\IS_Lab2_JSON.csproj",
+        "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maksi\\OneDrive\\Документи\\Semestr 6\\IS\\lab2\\C# (Zad 2.7)\\IS_Lab2_JSON\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
