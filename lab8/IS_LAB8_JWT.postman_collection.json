@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "d50c4b46-715a-40a4-9707-432af7a96a57",
+		"name": "IS_LAB8_JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26283511",
+		"_collection_link": "https://cloudy-rocket-294014.postman.co/workspace/Team-Workspace~6b3a4429-78a8-46fc-8dfe-b2997aefb41c/collection/26283511-d50c4b46-715a-40a4-9707-432af7a96a57?action=share&creator=26283511&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "User \"Andrzej\" Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Andrzej\",\r\n    \"Password\": \"Andrzej\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User \"Piotrek\" Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Piotrek\",\r\n    \"Password\": \"Piotrek\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User \"Ania\" Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Ania\",\r\n    \"Password\": \"Ania\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjpbImFkbWluIiwidXNlciJdLCJuYmYiOjE2ODM1NDgyNzksImV4cCI6MTY4MzU1MTg3OSwiaWF0IjoxNjgzNTQ4Mjc5fQ.dpF6VJxUcyCMlVxjoEcDSIXDa13Fe5ejQ6eXHY1Ne2g",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Andrzej\",\r\n    \"Password\": \"Andrzej\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/all_authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"all_authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get number of Users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMiLCJyb2xlIjoidXNlciIsIm5iZiI6MTY4MzU0ODI4OSwiZXhwIjoxNjgzNTUxODg5LCJpYXQiOjE2ODM1NDgyODl9.1OjcB00arMWO1ewMP0IIJmTGNA-8Gcyi1oKhQ76UtNI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Ania\",\r\n    \"Password\": \"Ania\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/authenticate_users_count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"authenticate_users_count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get random prime number",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjpbIm51bWJlciIsInVzZXIiXSwibmJmIjoxNjgzNTQ4MzI2LCJleHAiOjE2ODM1NTE5MjYsImlhdCI6MTY4MzU0ODMyNn0.9R0oMLDiCtdZeSZ042JctmaPT0oU0AUJin6uPswQ3Pg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\": \"Piotrek\",\r\n    \"Password\": \"Piotrek\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/numbers/random_prime_number",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"numbers",
+						"random_prime_number"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IS_LAB8_JWT.props" />
+</Project>

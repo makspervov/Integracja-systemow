@@ -1,0 +1,12 @@
+System operacyjny: 
+Edition	Windows 10 Pro
+Version	22H2
+
+IDE: Microsoft Visual Studio Community 2022 (64-bitowy) - Current
+Wersja: 17.5.4
+
+Framework: Microsoft .NET Framework
+Wersja 4.8.04084
+
+Język: C#
+Wersja: 11

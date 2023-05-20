@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IS_LAB8_JWT.props" />
+</Project>

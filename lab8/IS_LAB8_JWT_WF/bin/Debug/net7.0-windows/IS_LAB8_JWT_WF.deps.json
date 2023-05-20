@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "IS_LAB8_JWT_WF/1.0.0": {
+        "runtime": {
+          "IS_LAB8_JWT_WF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IS_LAB8_JWT_WF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

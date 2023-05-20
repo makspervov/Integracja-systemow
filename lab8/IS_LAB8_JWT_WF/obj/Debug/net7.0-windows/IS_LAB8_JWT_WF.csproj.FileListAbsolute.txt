@@ -1,0 +1,17 @@
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\bin\Debug\net7.0-windows\IS_LAB8_JWT_WF.exe
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\bin\Debug\net7.0-windows\IS_LAB8_JWT_WF.deps.json
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\bin\Debug\net7.0-windows\IS_LAB8_JWT_WF.runtimeconfig.json
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\bin\Debug\net7.0-windows\IS_LAB8_JWT_WF.dll
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\bin\Debug\net7.0-windows\IS_LAB8_JWT_WF.pdb
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.csproj.AssemblyReference.cache
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.Form1.resources
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.csproj.GenerateResource.cache
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.AssemblyInfoInputs.cache
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.AssemblyInfo.cs
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.csproj.CoreCompileInputs.cache
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.dll
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\refint\IS_LAB8_JWT_WF.dll
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.pdb
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\IS_LAB8_JWT_WF.genruntimeconfig.cache
+C:\Users\maksi\Documents\Semestr 6\IS\lab8\IS_LAB8_JWT_WF\obj\Debug\net7.0-windows\ref\IS_LAB8_JWT_WF.dll

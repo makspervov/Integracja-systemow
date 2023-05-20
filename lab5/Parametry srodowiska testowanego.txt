@@ -1,0 +1,9 @@
+System operacyjny: Windows 11 version 10.0 running on amd64; UTF-8; uk_UA (nb)
+
+IDE: JetBrains IntelliJ IDEA 2023.1 (Ultimate Edition)
+Wersja JDK: 19.0.1; Java HotSpot(TM) 64-Bit Server VM 19.0.1+10-21
+
+IDE: Microsoft Visual Studio Community 2022 (64-bit) - Current Version 17.5.2
+Wersja .NET Framework: 4.8
+Wersja .NET: 7.0.3
+Wersaj C#: 11.0
