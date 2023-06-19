@@ -1,0 +1,55 @@
+Temat: Porównanie stężenie CO2 w zależności od wielkości przemysłu i powierzchni lasów w różnych krajach świata.
+
+Grupa: IO 6.10
+
+Autorzy:
+	Oleksandra Lukashchuk
+	Maksym Pervov
+
+
+
+System operacyjny:
+Edition	Windows 10 Pro
+Version	22H2
+
+IDE: Microsoft Visual Studio Code
+Version: 1.78.2 (user setup)
+
+Projekt skonfigurowany do uruchamiania w kontenerach Docker.
+Poniżej przedstawione wersje Node.js, React, MongoDB do uruchamiania ich w Docker:
+
+Node.js: v.18
+React: v.node:lts-buster
+MongoDB: v.6.0.2
+
+
+Aby skonfigurować projekt do uruchamiania go jako usługę Docker Compose, wykonaj następujące kroki:
+
+*punkty 1-3 do uruchamiania projektu w Linux*
+
+1. Stwórz nowy katalog o nazwie `Projekt`: `mkdir Projekt`
+2. Przenieś archiwum do katalogo i przejdź do niego: `mv Projekt_Lukashchuk_Pervov.zip ./Projekt` >> `cd Projekt`.
+3. Rozpackuj archiwum w katalogu `Projekt`: `unzip -tq Projekt_Lukashchuk_Pervov.zip`
+4. Otwórz program Docker Desktop i terminał (systemy Linux) lub wiersz poleceń/Powershell (dla Windows)
+5. Uruchom aplikację Docker Compose: `docker compose up -d`
+6. Poczekaj, aż Docker Compose pobierze obrazy i skonfiguruje aplikację.
+7. Po skonfigurowaniu usługi w przeglądarce wpisz następujący adres: `localhost:3001` 
+
+Upewnij się, że dane zostały zaimportowane do MongoDB z `collections/init-db.js`, aby sprawdzić działanie aplikacji. Możesz zrobić to za pomocą polecenia `docker exec -it mongodb_database mongosh` i w wierszu poleceń MongoSH wpisz polecenie `show dbs`. Wynik działania powinien wygłądać jak na przykładzie poniżej:
+
+```
+test> show dbs
+**CO2      1.26 MiB**
+admin   40.00 KiB
+config  72.00 KiB
+local   80.00 KiB
+```
+
+Jeżeli natomiast rozmiar bazy CO2 różni się z tym, co podano na przykładzie, zaimportuj dane ręcznie:
+
+1. W wierszu poleceń wpisz polecenie `docker exec -it mongodb_database bash`
+2. Dla każdej kolekcji zaimportuj odpowiednie dane: `mongoimport --db CO2 --collection ${collection.name} --type json ${collection.file} --jsonArray`, gdzie:
+    `${collection.name}` - nazwa kolekcji,
+    `${collection.file}` - Ścieżka do pliku (domyślnie jest to `/docker-entrypoint-initdb.d/nazwa_pliku.json`)
+
+Project on GitHub: https://github.com/makspervov/Integracja-systemow/tree/main/Projekt
