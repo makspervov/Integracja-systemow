@@ -1,0 +1,57 @@
+exit
+show dbs
+db.users.find()
+use CO2
+db.co2emissionbycountries.find().sort({year: 1})
+db.landareas.find().sort({year: 1})
+db.co2emissionbycountries.createIndex({year: 1})
+db.co2emissionbycountries.find()
+db.landareas.find().sort({"Year": 1})
+db.forestareabycountries.find().sort({"Year": 1})
+db.co2emissionbysectors.find().sort({"Year": 1})
+db.co2emissionbycountries.find().sort({"Year": 1})
+db.co2emissionbycountries.sort({"Year": 1})
+db.co2emissionbycountries.find()
+db.landareas.find()
+use CO2
+db.landareas.deleteMany({})
+db.forestareabycountries.deleteMany({})
+db.co2emissionbysectors.deleteMany({})
+show collections
+use CO2
+db.co2emissionbycountries.deleteMany({})
+show collections
+use CO2
+db.landareas.find().sort({"Year": 1, "Entity": 1})
+db.landareas.find().sort({"Year": 1})
+db.forestareabycountries.find().sort({"Year": 1})
+db.co2emissionbysectors.find().sort({"Year": 1})
+db.co2emissionbycountries.find().sort({"Year": 1})
+db.co2emissionbycountries.find()
+use CO2
+show dbs
+db.users.find()
+use CO2
+show dbs
+db.co2emissionbycountries.find()
+db.users.find()
+db.users.find({})
+use CO2
+show dbs
+db.users.find({})
+show collections
+use CO2
+show dbs
+db.co2emissionbycountries.find({})
+db.users.find({})
+show collections
+use CO2
+show dbs
+show collections
+use CO2
+show collections
+use co2
+show dbs
+show collections
+use CO2
+show dbs

@@ -1,0 +1,49 @@
+.admin_container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .error_msg {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .user_table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user_table th,
+  .user_table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user_table th {
+    font-weight: bold;
+  }
+  
+  .user_table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .user_table button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user_table button:hover {
+    background-color: #d32f2f;
+  }
+  
